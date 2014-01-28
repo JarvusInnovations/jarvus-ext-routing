@@ -1,12 +1,10 @@
-/*jslint browser: true, undef: true, white: false, laxbreak: true *//*global Ext*/
-
 /**
  * Provides {@link #method-pushPath} for controllers
  */
 Ext.define('Jarvus.ext.override.util.PushHistory', {
-    override: 'Ext.util.History'
+    override: 'Ext.util.History',
 
-    ,pageTitleSeparator: ' &mdash; '
+    pageTitleSeparator: ' &mdash; ',
 
     /**
      * Silently push a given path to the address bar without triggering a routing event.
@@ -16,10 +14,10 @@ Ext.define('Jarvus.ext.override.util.PushHistory', {
      *
      * @param {String/String[]/Ext.data.Model} url The url path to push
      */
-    ,pushPath: function(url, title) {
-        var me = this
-            ,titleDom = me.pageTitleDom
-            ,titleBase = me.pageTitleBase;
+    pushPath: function(url, title) {
+        var me = this,
+            titleDom = me.pageTitleDom,
+            titleBase = me.pageTitleBase;
 
         if(title) {
             if(!titleDom) {
