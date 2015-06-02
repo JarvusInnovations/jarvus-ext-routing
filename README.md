@@ -9,10 +9,10 @@ Touch-style controller-based routing for ExtJS with some convenient enhancements
 - [ext-5.1.1.451](https://github.com/JarvusInnovations/jarvus-ext-routing/tree/ext-5.1.1.451)
 
 ## Using packages
-This repository has separate branches for each framework+version, with the master branch serving as a template for new branches.
+This repository has separate branches for each supported Ext JS version.  Please use the branch appropriate for the version of the Ext JS framework that you are using.
 
 ### Step 1) Clone a branch into your <kbd>packages</kbd> folder
-Open a terminal in your app's or workspace's <kbd>packages</kbd> directory and clone the branch for the framework+version you're using:
+Open a terminal in your app's or workspace's <kbd>packages</kbd> directory and clone the branch for the version you are using:
 
   `git clone -b ext-5.1.1.451 https://github.com/JarvusInnovations/jarvus-ext-routing.git`
 
