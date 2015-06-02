@@ -17,7 +17,7 @@ Open a terminal in your app's or workspace's <kbd>packages</kbd> directory and c
   `git clone -b ext-5.1.1.451 https://github.com/JarvusInnovations/jarvus-ext-routing.git`
 
 ### Step 2) Add package to app's requirements
-Open the <kbd>app.json</kbd> file in your app's directory and add `"jarvus-hotfixes"` to the array following the existing `"requires"` attribute:
+Open the <kbd>app.json</kbd> file in your app's directory and add `"jarvus-ext-routing"` to the array following the existing `"requires"` attribute:
 
 ```json
     "requires": [
